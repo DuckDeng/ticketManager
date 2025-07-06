@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="error.svg" type="image/x-icon" />
+    <title>达咩达咩</title>
+    <!-- 引入 Bootstrap -->
+    <link
+      href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/5.3.3/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        display: flex;
+        justify-content: center; /* 水平居中 */
+        align-items: center; /* 垂直居中 */
+        min-height: 100vh;
+        text-align: center;
+        font-family: Arial, sans-serif;
+        background-color: #f8f9fa;
+        padding: 20px;
+      }
+      .container {
+        max-width: 500px;
+      }
+      h1 {
+        font-size: 28px;
+        color: #333;
+        margin-bottom: 20px;
+      }
+      .error-image {
+        width: 80%; /* 默认移动端 */
+        max-width: 300px; /* PC端限制最大宽度 */
+        height: auto;
+        margin-bottom: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container text-center">
+      <h1>不可以从这里进去哦！</h1>
+      <img src="Forbidden.png" alt="Forbidden" class="error-image" />
+    </div>
+
+    <!-- 引入 Bootstrap JS（可选） -->
+    <script src="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
